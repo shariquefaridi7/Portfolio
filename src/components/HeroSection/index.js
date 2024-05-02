@@ -4,6 +4,7 @@ import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, Hero
 
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
+import HeroImg from "../../images/HeroImage.jpg";
 
 const HeroSection = () => {
     return (
@@ -33,7 +34,7 @@ const HeroSection = () => {
 
                     <HeroRightContainer id="Right">
 
-                        <Img src="https://cdn-icons-png.freepik.com/512/6840/6840478.png" />
+                        <Img src={HeroImg} />
                     </HeroRightContainer>
                 </HeroInnerContainer>
 
